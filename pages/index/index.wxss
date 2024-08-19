@@ -3,6 +3,7 @@ page {
   height: 100vh;
   display: flex;
   flex-direction: column;
+  background-color: rgba(111, 111, 211, 0.2);
 }
 .scrollarea {
   flex: 1;
@@ -19,15 +20,15 @@ page {
 
 .userinfo-avatar {
   overflow: hidden;
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
+  width: 512rpx;
+  height: 512rpx;
+  margin: 80rpx;
   border-radius: 50%;
 }
 
 .avatar-wrapper {
   padding: 0;
-  width: 56px !important;
+  width: 128px !important;
   border-radius: 8px;
   margin-top: 40px;
   margin-bottom: 40px;
@@ -35,14 +36,14 @@ page {
 
 .avatar {
   display: block;
-  width: 56px;
-  height: 56px;
+  width: 128px;
+  height: 128px;
 }
 
 .nickname-wrapper {
   display: flex;
   width: 100%;
-  padding: 16px;
+  padding: 36px;
   box-sizing: border-box;
   border-top: .5px solid rgba(0, 0, 0, 0.1);
   border-bottom: .5px solid rgba(0, 0, 0, 0.1);
